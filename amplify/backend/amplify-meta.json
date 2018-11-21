@@ -1,0 +1,26 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "myreactapp-20181121144221-authRole",
+      "UnauthRoleArn": "arn:aws:iam::793005120058:role/myreactapp-20181121144221-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::793005120058:role/myreactapp-20181121144221-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "myreactapp-20181121144221-deployment",
+      "UnauthRoleName": "myreactapp-20181121144221-unauthRole",
+      "StackName": "myreactapp-20181121144221",
+      "StackId": "arn:aws:cloudformation:us-west-2:793005120058:stack/myreactapp-20181121144221/53e1eea0-edd6-11e8-b2a7-503ac9841afd"
+    }
+  },
+  "api": {
+    "My AppSync App": {
+      "service": "AppSync",
+      "output": {
+        "securityType": "API_KEY",
+        "GraphQLAPIIdOutput": "mb2z3ej6vjbszi545lecce5o2a",
+        "GraphQLAPIEndpointOutput": "https://m42i3md6znekpkyuf5sfnvama4.appsync-api.us-west-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-3ge7w5l6wrhepb6435jfhshdsi"
+      },
+      "lastPushTimeStamp": "2018-11-21T21:43:15.347Z"
+    }
+  }
+}
